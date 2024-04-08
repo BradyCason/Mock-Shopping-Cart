@@ -17,7 +17,7 @@ export default function FilterBar({sortLowHigh, sortHighLow, sortRated, selectCa
                 <Dropdown.Item onClick={() => selectCategory("All")}>All</Dropdown.Item>
                 <Dropdown.Item onClick={() => selectCategory("men's clothing")}>Men's Clothing</Dropdown.Item>
                 <Dropdown.Item onClick={() => selectCategory("women's clothing")}>Women's Clothing</Dropdown.Item>
-                <Dropdown.Item onClick={() => selectCategory("jewelry")}>Jewelry</Dropdown.Item>
+                <Dropdown.Item onClick={() => selectCategory("jewelery")}>Jewelry</Dropdown.Item>
                 <Dropdown.Item onClick={() => selectCategory("electronics")}>Electronics</Dropdown.Item>
               </DropdownButton>
             </Dropdown>
